@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: python:3.9-slimm
+    container: python:3.9-slim
 
     steps:
       - name: Check out
